@@ -1,0 +1,92 @@
+{
+    "pitfalls": [
+        {
+            "name": "The Lock-In Effect",
+            "emoji": "🔒",
+            "category": "General",
+            "description": "Practices known to be problematic remain widespread simply because they are already widespread, making it difficult for new, better methods to be adopted.",
+            "subjective_objective": "Both",
+            "actors_most_affected": [
+                "Academic researcher",
+                "Model creator"
+            ],
+            "evaluation_use": "Compare models",
+            "modalities": [
+                "General"
+            ],
+            "sources": []
+        },
+        {
+            "name": "Apples-to-Oranges",
+            "emoji": "🍎🍊",
+            "category": "General",
+            "description": "Models or data are compared on an unequal footing, such as evaluating models using a different number of examples or under different conditions.",
+            "subjective_objective": "Both",
+            "actors_most_affected": [
+                "Academic researcher",
+                "Model deployer"
+            ],
+            "evaluation_use": "Compare models",
+            "modalities": [
+                "General",
+                "NLP",
+                "Speech"
+            ],
+            "sources": []
+        },
+        {
+            "name": "Contamination Leak",
+            "emoji": "💧",
+            "category": "General",
+            "description": "The model has already been exposed to the evaluation data during its training phase, which invalidates the results. This is a widespread and subtle problem.",
+            "subjective_objective": "Both",
+            "actors_most_affected": [
+                "Academic researcher",
+                "Model creator"
+            ],
+            "evaluation_use": "Compare models, assess system reliability",
+            "modalities": [
+                "General"
+            ],
+            "sources": []
+        },
+        {
+            "name": "Unvalidated Automation",
+            "emoji": "🤖❓",
+            "category": "NLP",
+            "description": "Using an LLM-as-a-judge to evaluate outputs without first validating the judge LLM's performance against human experts or established criteria. While LLMs can scale evaluation, they are not yet reliable enough to be the sole evaluators.",
+            "subjective_objective": "Both",
+            "actors_most_affected": [
+                "Academic researcher",
+                "Model creator",
+                "Model deployer"
+            ],
+            "evaluation_use": "Assess system reliability",
+            "modalities": [
+                "Text",
+                "General"
+            ],
+            "sources": [
+                "The LLM Evaluation guidebook"
+            ]
+        },
+        {
+            "name": "Vague Scales",
+            "emoji": "🧐",
+            "category": "TTS",
+            "description": "Papers on synthetic speech fail to report crucial details, such as whether they are evaluating 'quality' or 'naturalness,' or do not disclose the labels used in their Mean Opinion Score (MOS) scale.",
+            "subjective_objective": "Subjective",
+            "actors_most_affected": [
+                "Academic researcher"
+            ],
+            "evaluation_use": "Compare models, assess system reliability",
+            "modalities": [
+                "Speech"
+            ],
+            "sources": [
+                "Good practices for evaluation of synthesized speech",
+                "Hot topics in speech synthesis evaluation"
+            ]
+        }
+    ]
+}

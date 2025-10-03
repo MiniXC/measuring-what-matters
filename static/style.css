@@ -1,0 +1,11 @@
+li {
+    list-style-type: none !important;
+}
+
+.card .title {
+    margin-top: 0.5rem;
+}
+
+.emoji-container {
+    background: none !important;
+}
