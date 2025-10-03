@@ -18,13 +18,12 @@
             <div class="column is-10">
                 <div class="card">
                     <div class="card-content">
-                        <iframe src="https://huggingface.co/spaces/cdminix/paper-eval-checker">
-<iframe
-	src="https://cdminix-paper-eval-checker.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
+						<iframe
+							src="https://cdminix-paper-eval-checker.hf.space"
+							frameborder="0"
+							width="850"
+							height="450"
+						></iframe>
                     </div>
                 </div>
             </div>
